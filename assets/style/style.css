@@ -510,4 +510,10 @@ footer .copywrite .media img {
     display: flex;
     flex-wrap: wrap;
   }
+}
+@media (max-width: 737px) {
+  footer .footer-card {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=style.css.map */

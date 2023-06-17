@@ -602,3 +602,12 @@ footer {
     }
   }
 }
+
+@media (max-width: 737px) {
+  footer {
+    .footer-card {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+}
