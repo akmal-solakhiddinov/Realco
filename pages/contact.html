@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/style/style.css" />
+    <title>Document</title>
+
+    <style>
+      form {
+        margin-top: 20px;
+        max-width: 30rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      label {
+        display: block;
+        margin-top: 10px;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        display: inline-block;
+        border-radius: 8px;
+      }
+
+      button {
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="../index.html" class="logo">
+        <img src="../assets/img/main-logo.png" alt="" />
+      </a>
+
+      <input type="checkbox" name="menu" id="menu" />
+
+      <nav>
+        <ul>
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a href=""
+              >Properties <img src="../assets/img/expand_more.png" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="">About</a>
+          </li>
+          <li>
+            <a href="">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="dropdown">
+        <input type="checkbox" name="dropdown" id="dropdown" />
+        <label for="dropdown"
+          ><img src="../assets/img/house.png" alt=""
+        /></label>
+
+        <div class="dropdown-content">
+          <ul>
+            <li>
+              <a href="../homeworks/mit-edu/index.html">mit-edu</a>
+            </li>
+            <li>
+              <a href="../homeworks/login and signup/index.html">login</a>
+            </li>
+            <li>
+              <a href="../homeworks/carousel/inde.html">Cv</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <a href="" class="btn hover-white">Find a property</a>
+      <label for="menu" class="menu-btn"> M </label>
+    </header>
+
+    <div class="container">
+      <h1 class="heading">Contact RealCo</h1>
+      <p class="paragraph">
+        Have a question or need assistance? Fill out the form below to get in
+        touch with our team.
+      </p>
+
+      <form>
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your name"
+          required
+        />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your email"
+          required
+        />
+
+        <label for="phone">Phone Number</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="Your phone number"
+          required
+        />
+
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          placeholder="Your message"
+          required
+        ></textarea>
+
+        <button class="btn" type="submit">Submit</button>
+      </form>
+    </div>
+    <footer>
+      <div class="footer-card">
+        <a href="" class="logo">
+          <img src="../assets/img/main-logo.png" alt="" />
+        </a>
+
+        <ul>
+          <li>
+            <a href="">Pages</a>
+          </li>
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a href="">About</a>
+          </li>
+          <li>
+            <a href="">Blog</a>
+          </li>
+          <li>
+            <a href="">Agents</a>
+          </li>
+          <li>
+            <a href="">Contact</a>
+          </li>
+          <li>
+            <a href="">FAQs</a>
+          </li>
+          <li>
+            <a href="">Properties</a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href="">CMS Pages</a>
+          </li>
+          <li>
+            <a href="">Property</a>
+          </li>
+          <li>
+            <a href="">Property Single</a>
+          </li>
+          <li>
+            <a href="">Blog Categories</a>
+          </li>
+          <li>
+            <a href="">Blog Single</a>
+          </li>
+          <li>
+            <a href="">Agent Single</a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href="">Utility Pages</a>
+          </li>
+          <li>
+            <a href="">Style Guide</a>
+          </li>
+          <li>
+            <a href="">Changelog</a>
+          </li>
+          <li>
+            <a href="">Licenses</a>
+          </li>
+          <li>
+            <a href="">404</a>
+          </li>
+          <li>
+            <a href="">Password</a>
+          </li>
+          <li>
+            <a href="">Search</a>
+          </li>
+        </ul>
+
+        <div class="footer-details">
+          <h1 class="heading-3">Subscribe</h1>
+          <p class="paragraph-2">
+            Join our newsletter to stay up to date on features and releases.
+          </p>
+
+          <div class="search-container">
+            <div class="search-box">
+              <input
+                type="text"
+                name="text"
+                id="text"
+                placeholder="Enter Your Email"
+              />
+            </div>
+            <a href="" class="btn hover-white">Subscribe</a>
+          </div>
+
+          <p class="paragraph-3">
+            By subscribing you agree to with our
+            <a href="">Privacy Policy</a>
+          </p>
+        </div>
+      </div>
+      <div class="copywrite">
+        <p>© Realco by Minimal Square</p>
+
+        <div class="media">
+          <img src="../assets/img/Vector.png" alt="" />
+          <img src="../assets/img/Vector (1).png" alt="" />
+          <img src="../assets/img/Vector (2).png" alt="" />
+          <img src="../assets/img/Vector (3).png" alt="" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
